@@ -1,0 +1,27 @@
+.sidebar {
+  @apply h-screen w-[400px] z-20 bg-mainBg bg-no-repeat bg-cover fixed drop-shadow-lg px-16;
+}
+
+.image {
+  @apply rounded-lg max-h-72 drop-shadow-lg;
+}
+
+.icons {
+  @apply drop-shadow-lg transition ease-in-out hover:-translate-y-2 duration-300;
+}
+
+.description::after {
+  @apply text-white;
+  content: "|";
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
