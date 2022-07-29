@@ -2,7 +2,7 @@
   "name": "portfolio-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alex501212.github.io",
+  "homepage": "https://alex501212.github.io/alexpatterson",
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.4",
