@@ -28,7 +28,7 @@ const Carousel = () => {
   }
 
   return (
-    <div className="ml-[400px] p-20">
+    <div className="ml-[400px] p-20 overflow-hidden">
       <div className="flex relative items-center justify-center">
         {Images.map((data, index) => {
           return (
@@ -95,7 +95,7 @@ const Carousel = () => {
       {Images.map((data, index) => {
         return (
           <div>
-            {(index === current) && (data.title && data.description) && (
+            {index === current && data.title && data.description && (
               <div className="bg-white rounded-xl shadow-2xl mt-10 contentCard">
                 <div className="px-10 pb-10 pt-2">
                   <h1 className="font-bold text-2xl my-6">{data.title}</h1>

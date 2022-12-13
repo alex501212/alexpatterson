@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'mainBg': "url('/public/images/bg.jpeg')"
+        mainBg: "url('/public/bg.jpeg')",
       },
       fontFamily: {
-        'main': ["Open Sans"]
+        main: ["Open Sans"],
       },
     },
   },
