@@ -5,26 +5,25 @@ import project_03 from "../../images/project_03.jpg";
 export const CarouselData = [
   {
     image: project_01,
-    title: "Resume Request Form",
+    title: "Puppet CI Triage Helper Redesign",
     description:
-      "I developed the site for a university project using HTML5, CSS, Javascript and jQuery. I also created a feature which changes the site to Japanese using my translation",
-    link: "https://github.com/alex501212/cvrequestform",
-    linkText: "Source",
+      "I worked on redesigning a product called 'CITH'. CITH stands for 'Continuous Integration Triage Tool' which was a tool Used within CI, to display information and historical data regarding Jenkins jobs and builds helping pinpoint failures. This redesign was implemented using React and mainly consisted of updating components from the Semantic UI component library to Puppet's in house Puppet Design System.",
+    link: "https://youtu.be/nSiXfMo9TFw",
+    linkText: "Demo video",
   },
   {
     image: project_02,
-    title: "True - Flashcard Program for Learning Japanese",
-    description:
-      "True is an Android application to enable learners of Japanese to learn through use of set or custom flashcards. I built this project using Java and the Gson, Kanatools and Kuromoji libraries",
-    link: "https://github.com/alex501212/FlashCards",
-    linkText: "Source",
+    title: "EsportsNow – A cloud native video hosting application",
+    description: "For a university assignment I developed a cloud-based video hosting platform using mainly focusing on the tools that Microsoft Azure offers such as CosmosDB and Blob storage. This solution also integrates the Cloudmersive API for virus scans for uploaded files and cloud translator features offered by Azure.",
+    link: "https://youtu.be/R-1zep5bvJU",
+    linkText: "Demo video",
   },
   {
     image: project_03,
-    title: "IT Asset Maintenance System",
+    title: "UniEsports – An Esports based social media platform for higher education institutions in the United Kingdom",
     description:
-      "I helped develop this system for a pair project for a university project using Java, it allows the user to manage and log entries for IT maintenance",
-    link: "https://github.com/mattdev95/ITMaintenanceSystem",
-    linkText: "Source",
+      "I created a full-stack application using angular, typescript, python, flask and auth0 that allows users to find Esports teams in their higher education institution and request to join teams. The application also allows users to follow each other and add team comments with upvotes and downvotes.",
+    link: "https://youtu.be/Ly1BYAQP3is",
+    linkText: "Demo video",
   },
 ];
