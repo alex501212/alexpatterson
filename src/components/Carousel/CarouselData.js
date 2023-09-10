@@ -1,8 +1,15 @@
 import project_01 from "../../images/project_01.jpg";
-import project_02 from "../../images/project_02.jpg";
+import project_07 from "../../images/project_07.png";
 import project_03 from "../../images/project_03.jpg";
 
 export const CarouselData = [
+  {
+    image: project_07,
+    title: "LangChat – Matching based video chat application for language learners",
+    description: "A full stack web application to aid language learning by matching learners with a native speaker of the language they are learning via video chat. The main technologies used are MongoDB, Express, React, NodeJS, socket.io and simple-peer.",
+    link: "https://youtu.be/rX5cPWvldws",
+    linkText: "Demo video",
+  },
   {
     image: project_01,
     title: "Puppet CI Triage Helper Redesign",
@@ -11,13 +18,7 @@ export const CarouselData = [
     link: "https://youtu.be/nSiXfMo9TFw",
     linkText: "Demo video",
   },
-  {
-    image: project_02,
-    title: "EsportsNow – A cloud native video hosting application",
-    description: "For a university assignment I developed a cloud-based video hosting platform using mainly focusing on the tools that Microsoft Azure offers such as CosmosDB and Blob storage. This solution also integrates the Cloudmersive API for virus scans for uploaded files and cloud translator features offered by Azure.",
-    link: "https://youtu.be/R-1zep5bvJU",
-    linkText: "Demo video",
-  },
+ 
   {
     image: project_03,
     title: "UniEsports – An Esports based social media platform for higher education institutions in the United Kingdom",

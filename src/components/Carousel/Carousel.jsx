@@ -102,17 +102,13 @@ const Carousel = () => {
                   <p className="text-gray-600 text-xl">{data.description}</p>
                 </div>
                 {data.link && (
-                  <div className="bg-slate-100 pl-10 py-4">
-                    <p className="text-sky-500 cursor-pointer transition ease-in-out hover:translate-x-2 duration-300">
-                      <a
-                        href={data.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                  <a href={data.link} target="_blank" rel="noopener noreferrer">
+                    <div className="bg-slate-100 pl-10 py-4">
+                      <p className="text-sky-500 cursor-pointer transition ease-in-out hover:translate-x-5 duration-100">
                         {data.linkText} →
-                      </a>
-                    </p>
-                  </div>
+                      </p>
+                    </div>
+                  </a>
                 )}
               </div>
             )}
