@@ -9,9 +9,9 @@ const Sidebar = (props) => {
       <ul>
         <li className="flex pt-8">
           <p className="description text-center text-[#AAABB6] font-main text-lg">
-            <strong className="text-white"> Hi I'm Alex Patterson,</strong> a 23
+            <strong className="text-white"> Hi I'm Alex Patterson,</strong> a 26
             year old final year Computer Science graduate from Northern Ireland.
-            I am currently open to frontend and fullstack developer
+            I am currently open to frontend, backend and fullstack developer
             opportunites.
           </p>
         </li>
